@@ -1,3 +1,12 @@
+#字符串:find/split/replace(查找,切割,替换)
+a='adf,fhggfhdad,qerrtadf,24ds'
+#find 查找
+print(a.find("qerrtadf"))
+#split 切割
+print(a.split(','))
+#replace 替换
+print(a.replace('a','1'))
+
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
